@@ -12,9 +12,11 @@ Template.newHackerForm.events({
       hackerName: hackerName,
       legalName: legalName,
       email: email,
-      allegiance: allegiance
+      allegiance: allegiance,
+      createdBy: Meteor.userId()
     }
 
+    console.log("Added!?!");
     Meteor.call('hackers.insert', newHacker);
   }
 
