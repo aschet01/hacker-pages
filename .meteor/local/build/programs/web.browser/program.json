@@ -285,15 +285,6 @@
       "hash": "28b7b02fffd8490f81f75fa9580e532e61473c0a"
     },
     {
-      "path": "packages/insecure.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/insecure.js?hash=5679de9a1eaf70c1c18f8c3bf9493ebe2e4caa33",
-      "size": 241,
-      "hash": "5679de9a1eaf70c1c18f8c3bf9493ebe2e4caa33"
-    },
-    {
       "path": "packages/mongo.js",
       "where": "client",
       "type": "js",
@@ -556,11 +547,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/app.js?hash=dcb49fc0dd06409ffba3f57c6389a10e96709720",
+      "url": "/app/app.js?hash=982ab422db3ace993277ada2f0a06d7190e99e86",
       "sourceMap": "app/app.js.map",
-      "sourceMapUrl": "/app/dcb49fc0dd06409ffba3f57c6389a10e96709720.map",
-      "size": 19215,
-      "hash": "dcb49fc0dd06409ffba3f57c6389a10e96709720"
+      "sourceMapUrl": "/app/982ab422db3ace993277ada2f0a06d7190e99e86.map",
+      "size": 21036,
+      "hash": "982ab422db3ace993277ada2f0a06d7190e99e86"
     },
     {
       "path": "merged-stylesheets.css",

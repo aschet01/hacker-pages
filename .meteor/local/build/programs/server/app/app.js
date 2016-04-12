@@ -19,6 +19,26 @@ if (Meteor.isServer) {                                               // 3
 }                                                                    //
 ///////////////////////////////////////////////////////////////////////
 
+},"methods.js":function(){
+
+///////////////////////////////////////////////////////////////////////
+//                                                                   //
+// lib/methods.js                                                    //
+//                                                                   //
+///////////////////////////////////////////////////////////////////////
+                                                                     //
+                                                                     //
+Meteor.methods({                                                     // 2
+  'hackers.insert': function () {                                    // 3
+    function hackersInsert(newHackerObject) {                        //
+      Hackers.insert(newHackerObject);                               // 4
+    }                                                                //
+                                                                     //
+    return hackersInsert;                                            //
+  }()                                                                //
+});                                                                  //
+///////////////////////////////////////////////////////////////////////
+
 },"router.js":function(){
 
 ///////////////////////////////////////////////////////////////////////
@@ -36,5 +56,6 @@ Router.route('/list-hackers', { name: 'hackerList' });               // 5
 
 }}},{"extensions":[".js",".json"]});
 require("./lib/collections.js");
+require("./lib/methods.js");
 require("./lib/router.js");
 //# sourceMappingURL=app.js.map

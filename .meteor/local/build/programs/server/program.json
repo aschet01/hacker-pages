@@ -169,9 +169,6 @@
       "path": "packages/binary-heap.js"
     },
     {
-      "path": "packages/insecure.js"
-    },
-    {
       "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/mongo/1.1.6/npm/node_modules",
       "sourceMap": "packages/mongo.js.map",
       "path": "packages/mongo.js"
