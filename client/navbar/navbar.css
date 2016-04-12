@@ -1,0 +1,11 @@
+
+.navbar-nav .navbar-right
+{
+	display: flex;
+	align-items: center;
+
+}
+.navbar-nav .navbar-right ul li
+{
+	align-self: center;
+}
