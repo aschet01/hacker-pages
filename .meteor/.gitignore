@@ -2,8 +2,4 @@ local/build
 local/bundler-cache
 local/isopacks
 local/plugin-cache
-<<<<<<< HEAD
 local/shell
-=======
-local/shell
->>>>>>> 6aa0819d0214e0358f12df79ff713be9f94ce5c0

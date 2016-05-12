@@ -31,7 +31,8 @@ if (Meteor.isServer) {                                               // 3
 Meteor.methods({                                                     // 2
   'hackers.insert': function () {                                    // 3
     function hackersInsert(newHackerObject) {                        //
-      Hackers.insert(newHackerObject);                               // 4
+      console.log("inserting");                                      // 4
+      Hackers.insert(newHackerObject);                               // 5
     }                                                                //
                                                                      //
     return hackersInsert;                                            //

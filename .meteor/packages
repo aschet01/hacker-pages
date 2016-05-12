@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Meteor packages used by this project, one per line.
 # Check this file (and the other files in this directory) into your repository.
 #
@@ -23,4 +21,3 @@ twbs:bootstrap
 iron:router
 ian:accounts-ui-bootstrap-3
 accounts-password
->>>>>>> aa94bee60d09851eeb20f6a9f969ac09e93a90e8

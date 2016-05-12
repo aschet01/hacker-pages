@@ -31,6 +31,7 @@ Set = Package['ecmascript-runtime'].Set;
 meteorBabelHelpers = Package['babel-runtime'].meteorBabelHelpers;
 Promise = Package.promise.Promise;
 Iron = Package['iron:core'].Iron;
+Accounts = Package['accounts-base'].Accounts;
 Autoupdate = Package.autoupdate.Autoupdate;
 HTML = Package.htmljs.HTML;
 

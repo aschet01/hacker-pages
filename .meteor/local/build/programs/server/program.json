@@ -1,12 +1,12 @@
 {
   "format": "javascript-image-pre1",
-  "arch": "os",
+  "arch": "os.windows.x86_32",
   "load": [
     {
       "path": "packages/underscore.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/meteor/1.1.13/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/meteor/1.1.13/npm/node_modules",
       "path": "packages/meteor.js"
     },
     {
@@ -16,7 +16,7 @@
       "path": "packages/mobile-experience.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/npm-mongo/1.4.42/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/npm-mongo/1.4.42/npm/node_modules",
       "path": "packages/npm-mongo.js"
     },
     {
@@ -29,7 +29,7 @@
       "path": "packages/check.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/babel-compiler/6.6.1/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/babel-compiler/6.6.1/npm/node_modules",
       "path": "packages/babel-compiler.js"
     },
     {
@@ -46,26 +46,26 @@
       "path": "packages/tracker.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/modules-runtime/0.6.2/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/modules-runtime/0.6.2/npm/node_modules",
       "path": "packages/modules-runtime.js"
     },
     {
       "path": "packages/modules.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/es5-shim/4.5.9/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/es5-shim/4.5.9/npm/node_modules",
       "path": "packages/es5-shim.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/promise/0.6.6/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/promise/0.6.6/npm/node_modules",
       "path": "packages/promise.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/ecmascript-runtime/0.2.9/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/ecmascript-runtime/0.2.9/npm/node_modules",
       "path": "packages/ecmascript-runtime.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/babel-runtime/0.1.7/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/babel-runtime/0.1.7/npm/node_modules",
       "path": "packages/babel-runtime.js"
     },
     {
@@ -91,11 +91,17 @@
       "path": "packages/ddp-common.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/ddp-client/1.2.4/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/ddp-client/1.2.4/npm/node_modules",
       "path": "packages/ddp-client.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/logging/1.0.11/npm/node_modules",
+      "path": "packages/rate-limit.js"
+    },
+    {
+      "path": "packages/ddp-rate-limiter.js"
+    },
+    {
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/logging/1.0.11/npm/node_modules",
       "path": "packages/logging.js"
     },
     {
@@ -146,7 +152,7 @@
       "path": "packages/webapp-hashing.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/webapp/1.2.7/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/webapp/1.2.7/npm/node_modules",
       "sourceMap": "packages/webapp.js.map",
       "path": "packages/webapp.js"
     },
@@ -154,7 +160,7 @@
       "path": "packages/callback-hook.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/ddp-server/1.2.5/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/ddp-server/1.2.5/npm/node_modules",
       "sourceMap": "packages/ddp-server.js.map",
       "path": "packages/ddp-server.js"
     },
@@ -169,7 +175,7 @@
       "path": "packages/binary-heap.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/mongo/1.1.6/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/mongo/1.1.6/npm/node_modules",
       "sourceMap": "packages/mongo.js.map",
       "path": "packages/mongo.js"
     },
@@ -214,8 +220,33 @@
       "path": "packages/iron_controller.js"
     },
     {
-      "node_modules": "/C/Users/nidhi/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules",
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules",
       "path": "packages/iron_router.js"
+    },
+    {
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/npm-bcrypt/0.7.8_2/npm/node_modules",
+      "path": "packages/npm-bcrypt.js"
+    },
+    {
+      "sourceMap": "packages/accounts-base.js.map",
+      "path": "packages/accounts-base.js"
+    },
+    {
+      "path": "packages/sha.js"
+    },
+    {
+      "path": "packages/srp.js"
+    },
+    {
+      "node_modules": "/C/Users/apeng/AppData/Local/.meteor/packages/email/1.0.11/npm/node_modules",
+      "path": "packages/email.js"
+    },
+    {
+      "sourceMap": "packages/accounts-password.js.map",
+      "path": "packages/accounts-password.js"
+    },
+    {
+      "path": "packages/ian_accounts-ui-bootstrap-3.js"
     },
     {
       "path": "packages/livedata.js"
@@ -238,6 +269,9 @@
     {
       "sourceMap": "app/app.js.map",
       "path": "app/app.js"
+    },
+    {
+      "path": "packages/service-configuration.js"
     }
   ]
 }
